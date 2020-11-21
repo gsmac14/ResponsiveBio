@@ -1,6 +1,42 @@
 
-body{
-    background-color: lightgray;
-    margin color: #000;
-    
+.nameTitle{
+    border: 2px;
+    outline: black;
+
 }
+.header1{
+    text-align: center;
+    font-size: 30px;
+    color: mediumseagreen;
+    font-style: oblique;
+}
+
+.header2{
+    text-align: center;
+    font-size: 24px;
+    color: mediumseagreen;
+    font-style: italic;
+
+}
+.cardImage{
+   size: 500px;
+}
+
+.link1, .link2, .link3{
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}
+
+.fa-user{
+    color: green;
+}
+
+.fa-folder{
+    color: brown;
+}
+
+.fa-address-book{
+    color: blue
+}
+
