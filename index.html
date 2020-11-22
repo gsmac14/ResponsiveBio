@@ -6,70 +6,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me</title>
   <script src="https://kit.fontawesome.com/6c18960413.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
-  <!--Nav bar at the top with links-->
-  <!-- <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark"> -->
-  <div class="container-fluid card border-light">
-    <div class="row">
-      <div class="col-md-12 mx-0 px-0">
-        <div class="row">
-          <div class="col-md-4 mx-0 px-0">
-            <div class="card mx-0 px-0">
-              <p class="card-header, header1">Girverius <br> McFarland</p>
-              <p class="card-header, header2">Full Stack Developer</p>
-              <section class="links">
-                <a class="nav-link active link3" href="#about"><i class="fas fa-user fa-lg"></i> About</a>
-                <!-- <a class="nav-link active link3" href="index.html"><i class="fas fa-user fa-lg"></i>  About</a> -->
-                <a class="nav-link active link1" href="#contact"><i class="fas fa-address-book fa-lg"></i> Contact
-                  <span class="sr-only">(current)</span> </a>
-                <a class="nav-link active link2" href="#portfolio"><i class="fas fa-folder fa-lg"></i> Portfolio</a>
-              </section>
-            </div>
-          </div>
-          <div class="col-md-8 mx-0 px-0 ">
-            <div class="card border-0 mx-0 px-0 mt-0 pt-0">
-              <div class="card-body mx-0 px-0 mt-0 pt-0 ">
-                <div class="image">
-                  <img
-                    src="https://lh3.googleusercontent.com/o9YNqCpw3AnlPuSe3P1B1PStXKMGnodEU5mf4AeazdluMp1xeeqT3h5vE7cchnh09lYs8Ydlm5bgR6js78T-cRdOyX5t0fKq4W2SS_VNqP3egUHl2Ejq6JiKTgRA0QfUtqyfaiEfGQ=w600-h315-p-k"
-                    class="img-fluid" alt="Responsive image">
-                </div>
-              </div>
-            </div>
-          </div>
 
-
-        </div>
-      </div>
+  <div id="mySidenav" class="sidenav">
+    <div class="card nameTitle">
+      <div class="card-body">
+    <h3 class="name">Girverius <br> McFarland</h3>
+    <h5>Full Stack Developer</h5>
+  </div>
+  </div>
+    <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+    <a class="nav-link" href="#about"><i class="fas fa-user fa-lg"></i> About</a>
+    <a class="nav-link" href="#contact"><i class="fas fa-address-book fa-lg"></i> Contact<span class="sr-only">(current)</span> </a>
+    <a class="nav-link" href="#portfolio"><i class="fas fa-folder fa-lg"></i> Portfolio</a>
+    <a class="nav-link" href="resume"><i class="fas fa-file"></i>  Resume</a>
+  </div>
+  
+  <!-- Use any element to open the sidenav -->
+  <!-- <span onclick="openNav()">open</span> -->
+  
+  <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+  <div id="main">
+     <div class="container">
+    <div class="card bg-dark text-white width: 20px">
+    <img
+      src="https://lh3.googleusercontent.com/o9YNqCpw3AnlPuSe3P1B1PStXKMGnodEU5mf4AeazdluMp1xeeqT3h5vE7cchnh09lYs8Ydlm5bgR6js78T-cRdOyX5t0fKq4W2SS_VNqP3egUHl2Ejq6JiKTgRA0QfUtqyfaiEfGQ=w600-h315-p-k"
+      class="img-fluid" alt="Responsive image">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Let me serve you!</h5>
     </div>
-      <section class="card mb-3" style="max-width: 750px;">
-          <div class="row no-gutters" id="about">
-            <!-- <div class="col-md-4">
-              <img src="https://lh3.googleusercontent.com/o9YNqCpw3AnlPuSe3P1B1PStXKMGnodEU5mf4AeazdluMp1xeeqT3h5vE7cchnh09lYs8Ydlm5bgR6js78T-cRdOyX5t0fKq4W2SS_VNqP3egUHl2Ejq6JiKTgRA0QfUtqyfaiEfGQ=w600-h315-p-k" class="card-img" alt="photo of me">
-            </div> -->
-            <div class="col-md-8">
+  </div>
+</div>
+
+      <!-- About section -->
+          <div id="about">
+            <div class="card">
               <div class="card-body">
-                <h2 style="color: green;font-size: 20px;font-weight: bolder;">About Me</h5>
+                <h1 style="color: green;font-size: 50px; font-weight: bolder;">About</h1>
                   <p>I graduted from Baylor University with BS and also from Texas Tech University with a masters in Occupational Therapy. I currently resided in the Dallas-Fort Worth area. I am currently seeking a certicate for a Full Stack Developer. In the future I will seek another certificate in Java and Python.</p>
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                   <ul>
                     <li style="font-size: 14px;"><strong>Email:</strong> <a href="mailto:gsmac1224@gmail.com">gsmac1224@gmail.com</a></li>
                     <li style="font-size: 14px;"><strong>Github:</strong> <a href="https://github.com/">gsmac14</a></li>
                   </ul>
-              </div>
+                </div>
+                </div>    
             </div>
-          </div>
-      </section>
+
+      <!-- Portfolio -->
       <div id="portfolio">
+        <div class="card">
+          <div class="card-body">
         <h1 style="color: green;font-size: 50px; font-weight: bolder;">Portfolio </h1>
     </div>
-    
-
     <div class="container">
       <div class="row">
         <div class="col p-3"><a href="https://place-hold.it/300"><img src="https://place-hold.it/300"></a> </div>
@@ -83,11 +76,15 @@
       <div class="row">
         <div class="col p-3"><a href="https://place-hold.it/300"><img src="https://place-hold.it/300"></a> </div>
 
-      </div> 
-      
+      </div>
+    </div>
+    </div>
     </div>
 
+<!-- Contact -->
     <div id="contact">
+      <div class="card">
+        <div class="card-body">
       <h1 style="color: green;font-size: 50px; font-weight: bolder;">Contact </h1>
   </div>
 
@@ -107,8 +104,107 @@
       </div>
     
     <button type="submit" class="btn btn-success">Submit</button>
-  </form>
+  </form> 
+</div>
+</div>
+  </div>
+
+
+
+
+
+  <!-- <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    
+    <a class="navbar-brand">Girverius <br> McFarland <br> Full Stack Devoloper</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ">
+        <ul> 
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"><i class="fas fa-user fa-lg"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact"><i class="fas fa-address-book fa-lg"></i> Contact<span class="sr-only">(current)</span> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio"><i class="fas fa-folder fa-lg"></i> Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div> -- -->
+  <!-- <div class="container">
+  <div class="card bg-dark text-white width: 20px">
+    <img
+      src="https://lh3.googleusercontent.com/o9YNqCpw3AnlPuSe3P1B1PStXKMGnodEU5mf4AeazdluMp1xeeqT3h5vE7cchnh09lYs8Ydlm5bgR6js78T-cRdOyX5t0fKq4W2SS_VNqP3egUHl2Ejq6JiKTgRA0QfUtqyfaiEfGQ=w600-h315-p-k"
+      class="img-fluid" alt="Responsive image">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text">Last updated 3 mins ago</p>
+    </div>
+  </div>
+</div>
+
+      About section
+          <div id="about">
+                <h3 class= "page-title white-text green">About Me</h3>
+                  <p>I graduted from Baylor University with BS and also from Texas Tech University with a masters in Occupational Therapy. I currently resided in the Dallas-Fort Worth area. I am currently seeking a certicate for a Full Stack Developer. In the future I will seek another certificate in Java and Python.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <ul>
+                    <li style="font-size: 14px;"><strong>Email:</strong> <a href="mailto:gsmac1224@gmail.com">gsmac1224@gmail.com</a></li>
+                    <li style="font-size: 14px;"><strong>Github:</strong> <a href="https://github.com/">gsmac14</a></li>
+                  </ul>
+            </div>
+
+      <!-- Portfolio -->
+      <!-- <div id="portfolio">
+        <h1 style="color: green;font-size: 50px; font-weight: bolder;">Portfolio </h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col p-3"><a href="https://place-hold.it/300"><img src="https://place-hold.it/300"></a> </div>
+        <div class="col p-3"><a href="https://place-hold.it/300"><img src="https://place-hold.it/300"></a> </div>
+
+      </div>
+      <div class="row">
+        <div class="col p-3"><a href="https://place-hold.it/300"><img src="https://place-hold.it/300"></a> </div>
+        <div class="col p-3"><a href="https://place-hold.it/300"><img src="https://place-hold.it/300"></a> </div>
+      </div>
+      <div class="row">
+        <div class="col p-3"><a href="https://place-hold.it/300"><img src="https://place-hold.it/300"></a> </div>
+
+      </div> 
+      
+    </div> -->
+
+<!-- Contact -->
+    <!-- <div id="contact">
+      <h1 style="color: green;font-size: 50px; font-weight: bolder;">Contact </h1>
+  </div>
+
+  <form>
+    <div class="form-group">
+        <label for="exampleInputName">Name</label>
+        <input type="name" class="form-control" id="exampleInputName">
+      </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlMessage">Message</label>
+        <textarea class="form-control" id="exampleFormControlMessage"></textarea>
+      </div>
+    
+    <button type="submit" class="btn btn-success">Submit</button>
+  </form> -->
 
 </body>
 
-</html>
+</html> 

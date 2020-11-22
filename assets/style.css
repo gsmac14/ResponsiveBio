@@ -1,4 +1,57 @@
+/* The side navigation menu */
+body{
+    background-image: url(download.png) ;
+}
+.card{
+    margin-top: 50px;
+    border-color: black;
+    background-image: url("https://www.designbolts.com/wp-content/uploads/2012/12/Triangle-White-Seamless-Patterns.jpg");
+}
 
+.nameTitle{
+    margin-top: 0px;
+}
+.sidenav {
+    height: 100%; 
+    width: 200; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    /* background-color:lightgrey; */
+    background-image: url("https://www.designbolts.com/wp-content/uploads/2012/12/Triangle-White-Seamless-Patterns.jpg");
+    overflow-x: hidden; 
+    padding-top: 20px; 
+    transition: 0.5s; 
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 6px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    margin-left: 250px;
+    padding: 0px 10px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+.name{
+    font-style: oblique;
+    text-align: center;
+    text-decoration-color: mediumseagreen;
+}
 .nameTitle{
     border: 2px;
     outline: black;
@@ -40,3 +93,6 @@
     color: blue
 }
 
+.bg-dark{
+    width: 50%;
+}
