@@ -9,6 +9,7 @@ https://gsmac14.github.io/ResponsiveBio/
 ![Alt text](/images/portfolio3.png)
 
 License: MIT
+
 Contact info: gsmac1224@gmail.com
 
 
