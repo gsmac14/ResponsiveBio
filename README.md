@@ -3,7 +3,7 @@
   
   ## Table of Contents
   * [Description](#description)
-  * [Technologies Used](#technologies used)
+  * [Technologies Used](#technologies)
   * [Usage](#usage)
   * [Contributing](#contributing)
   * [Test](#test)
