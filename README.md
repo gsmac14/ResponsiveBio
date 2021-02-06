@@ -1,15 +1,35 @@
-Bio
 
-I updated my bio page about myself. The page had to include working links that are contact, about, and portfolio. Bootstrap was used to help with layout and other factors. This page also had to be responsive in any size window. Created a side bar that is fixed.
+  # Portfolio
+  
+  ## Table of Contents
+  * [Description](#description)
+  * [Technologies Used](#technologies used)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Test](#test)
+  * [Liscense](#liscense)
+  * [Contact](#contact)
+  
+  ## Description
+                I am a full stack developer with a background in the health field wanting to merge my experience and ideas with web based applications/software in order to give users a wonderful experience. I recently earned a certificate in full stack development from Southern Methodist University. I have developed skills that include JavaScript, CSS, HTML, React, MongoDb, Mysql, Algorithms, Data Structures, API development, and JQuery. I am known for my creativity, self-motivation, working well with others, passion for completing projects, and bringing a visually intuitive application to the user. I have recently worked on a team that developed an application for helping doctors schedule house call appointments. I am excited to put my skills to good use so that I can develop first class applications and software.
 
-Technologies used: Bootstrap, HTML, CSS, font awesome
-https://gsmac14.github.io/ResponsiveBio/
-![Alt text](/images/portfolio1.png)
-![Alt text](/images/portfolio2.png)
-![Alt text](/images/portfolio3.png)
+  ## Technologies Used
+  HTML, CSS, Bootstrap, Font Awesome
+  
+  ## Usage
+  N/A
+  
+  ## Contributing 
+  Giirverius McFarland
 
-License: MIT
+  ## Test
+  N/A 
 
-Contact info: gsmac1224@gmail.com
+  ## License
+  MIT
 
+  ## Contact
+  GitHub: https://gitub.com/gsmac14
+
+  Email: gsmac1224@gmail.com
 
