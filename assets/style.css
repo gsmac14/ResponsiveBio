@@ -78,14 +78,19 @@
 
 .fa-user{
     color: green;
+    margin-right: 10px;
 }
 
 .fa-folder{
-    color: brown;
+    color: rgba(199, 163, 117, 0.993);
+    margin-right: 10px;
+
 }
 
 .fa-address-book{
     color: blue
+    margin-right: 10px;
+
 }
 
 .bg-dark{
@@ -93,6 +98,20 @@
 }
 .fa-linkedin{
     color: rgb(0, 140, 255);
+    margin-right: 10px;
+
+}
+.fa-file{
+    margin-right: 10px;
+}
+
+.fa-github{
+    margin-right: 10px;
+}
+
+.fa-address-book{
+    margin-right: 10px;
+    color: rgba(156, 107, 68, 0.308);
 }
 
 .img-fluid{
@@ -103,6 +122,8 @@
 
 .nav-link{
     color: green;
+    margin-right: 10px;
+
 }
 body{
     /* background-color:black;
